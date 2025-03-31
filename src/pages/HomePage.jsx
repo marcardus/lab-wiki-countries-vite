@@ -3,7 +3,6 @@ import axios from "axios"
 import { Link } from "react-router-dom";
 import ClipLoader from "react-spinners/ClipLoader";
 
-
 function HomePage() {
     const [countries, setCountries] = useState(null)
     const [isLoading, setIsLoading] = useState(true)
